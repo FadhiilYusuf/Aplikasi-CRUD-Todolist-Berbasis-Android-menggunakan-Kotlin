@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    style="@style/Positition">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_utama"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditUsernameLogin"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_baseline_mail_outline_24"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditPasswordLogin"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/BtnLogin"
+        android:text="Login"/>
+    <Button
+        android:id="@+id/btnregister"
+        style="@style/BtnLogin"
+        android:text="Register"/>
+
+</LinearLayout>

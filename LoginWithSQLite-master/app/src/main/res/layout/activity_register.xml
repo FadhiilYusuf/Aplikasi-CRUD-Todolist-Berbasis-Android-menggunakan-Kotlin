@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    style="@style/Positition">
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditEmailRegister"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditPasswordRegister"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+        android:inputType="textPassword"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditFullnameRegister"
+        android:hint="Nama Lengkap"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:inputType="text"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditJenkalRegister"
+        android:hint="Jenis Kelamin"
+        android:drawableLeft="@drawable/ic_baseline_accessibility_24"
+        android:inputType="text"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditAlamatRegister"
+        android:hint="Alamat"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btnsubmitregister"
+        style="@style/BtnLogin"
+        android:text="Register"
+        android:onClick="registerme"/>
+    <Button
+        android:id="@+id/btncancelregister"
+        style="@style/BtnLogin"
+        android:text="Cancel"
+        android:onClick="cancelme"/>
+
+</LinearLayout>

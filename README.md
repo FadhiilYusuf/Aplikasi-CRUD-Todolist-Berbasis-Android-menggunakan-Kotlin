@@ -1,1 +1,5 @@
-# Aplikasi-Movie-Berbasis-Android
+# PPB1-UAS-KELOMPOK6
+Kel6-Bergerak1-( Farid Nabil-Muhammad Azis-Muhammad Fadhiil Yusuf) <br>
+
+PEMROGRAMAN BERGERAK 1  <br>
+PERANCANGAN APLIKASI TODOLIST BERBASIS ANDROID MENGGUNAKAN KOTLIN
